@@ -40,6 +40,8 @@ git clone https://github.com/jkoal/cbsp.git  # downloads the repository
 cd cbsp  # navigates into the package directory
 conda create --name cbsp python=3.7.3  # creates a virtual python environment named cbsp
 conda activate cbsp  # activates the virtual environment
+conda install -c anaconda pip  # just make sure pip is installed in the environment 
+                               # `which pip` should point to the environment folder
 pip install -e .  # installs the package and dependencies in editable mode
 ```
 
