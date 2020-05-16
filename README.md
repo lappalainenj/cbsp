@@ -24,7 +24,8 @@ Simple usage examples:
 # the calcium concentration follows linear dynamics [1] and the 
 # postsynaptic membrane potential the adaptive-exponential integrate-and-fire model [2]
 cbsp.population_2.linear_calcium_aeif(u=60, w0=0.6, seed=1)
-
+```
+```python
 # applies crossvalidated exhaustive search to determine the best
 # three feature rule describing rate-based synaptic plasticity
 es=cbsp.validation.ExhaustiveSearch(num_features=3)
