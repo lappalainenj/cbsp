@@ -10,7 +10,7 @@ setup(
                         "matplotlib==3.1.1",
                         "numpy==1.17.2",
                         "pandas==0.25.3",
-                        "notebook==6.1.5",
+                        "notebook==6.4.10",
                         "ipywidgets==7.5.1"],
     author="Janne Lappalainen",
     description="Synaptic plasticity simulations and analysis - Lappalainen J, Herpich J and Tetzlaff C (2019) doi: 10.3389/fncom.2019.00026",
