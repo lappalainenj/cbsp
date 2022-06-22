@@ -8,7 +8,7 @@ setup(
                         "tqdm==4.44.1",
                         "scipy==1.4.1",
                         "matplotlib==3.1.1",
-                        "numpy==1.17.2",
+                        "numpy==1.22.0",
                         "pandas==0.25.3",
                         "notebook==6.1.5",
                         "ipywidgets==7.5.1"],
