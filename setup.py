@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=["numba==0.48.0",
                         "tqdm==4.44.1",
-                        "scipy==1.4.1",
+                        "scipy==1.10.0",
                         "matplotlib==3.1.1",
                         "numpy==1.17.2",
                         "pandas==0.25.3",
